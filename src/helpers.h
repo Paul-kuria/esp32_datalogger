@@ -7,3 +7,12 @@ int pktCount = 0; // count how many packets sent
 #define LORA_RESETT 14
 #define LORA_CS 18
 #define  LORA_IRQ 26
+
+
+// SOIL SENSOR
+#define I2C_SDA_2 21
+#define I2C_SCL_2 22
+#define SHT31_I2C_ADDR_44 0x44
+
+// AIR SENSOR
+#define DHTPIN 25
